@@ -1,0 +1,54 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+}
+
+header{
+    background-color: rgb(200, 198, 198);
+}
+
+nav {
+    background-color: black;
+    
+    padding: 2px;
+}
+
+li {
+    display: inline;
+    width: 0px; /* not  affected */
+   padding-left: 10%; 
+}
+li a {
+    color: white;
+    width: 30%;
+    text-decoration: none;
+}
+
+main {
+    background-color: rgb(164, 255, 6);
+    padding: 1%;
+    font-size: 20px;
+}
+main img {
+    width: 120px;
+    height: 100px;
+}
+
+main a {
+    background-color: white;
+     color: rgb(21, 0, 255);
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    color: brown;
+    font-family:    cursive, Pacifico,Playfair Display;
+}
+
+p {
+    line-height: 1.6;
+}
